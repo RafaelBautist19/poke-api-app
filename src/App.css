@@ -1,38 +1,38 @@
-.App {
-  text-align: center;
+@font-face {font-family: "Pokemon !"; 
+  src: url("//db.onlinewebfonts.com/t/5f191ba9ecf2a5675e26e26b13d7ad5b.eot"); 
+  src: url("//db.onlinewebfonts.com/t/5f191ba9ecf2a5675e26e26b13d7ad5b.eot?#iefix") 
+  format("embedded-opentype"), 
+  url("//db.onlinewebfonts.com/t/5f191ba9ecf2a5675e26e26b13d7ad5b.woff2") 
+  format("woff2"), 
+  url("//db.onlinewebfonts.com/t/5f191ba9ecf2a5675e26e26b13d7ad5b.woff") 
+  format("woff"), 
+  url("//db.onlinewebfonts.com/t/5f191ba9ecf2a5675e26e26b13d7ad5b.ttf") 
+  format("truetype"), 
+  url("//db.onlinewebfonts.com/t/5f191ba9ecf2a5675e26e26b13d7ad5b.svg#Pokemon !") 
+  format("svg"); 
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body{
+    font-family: 'Pokemon GB';
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.nav-link{
+    color: #F2BD1D !important;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 0.1rem;
+    padding: 0.5rem 1rem;
+    transition: all 0.3s ease-in-out;
+    border-radius: 0.5rem;
+    margin: 0 0.5rem;
+    text-decoration: none;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.navbar{
+    background: #283d59;
+    padding: 0.5rem 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
